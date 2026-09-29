@@ -106,6 +106,9 @@ a:focus-visible {
 .site-header {
   max-width: var(--container-width);
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-logo {
@@ -115,11 +118,16 @@ a:focus-visible {
 }
 
 .site-nav__list {
+  display: flex;
+  gap: 16px;
   padding: 0;
-  margin: var(--space-md) 0 0;
+  margin: 0;
   list-style: none;
 }
 
+.site-nav__list li {
+  margin-bottom: 0;
+}
 .site-nav__list li {
   margin-bottom: var(--space-sm);
 }
