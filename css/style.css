@@ -365,3 +365,34 @@ a:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 3px;
 }
+
+/* Стили для страницы товара */
+.product-details__content {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.product-details__info {
+  flex: 1;
+}
+
+/* Таблица характеристик */
+.specs-table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.specs-table th,
+.specs-table td {
+  border: 1px solid var(--color-border);
+  padding: 12px;
+  text-align: left;
+}
+
+.specs-table th {
+  background-color: var(--color-surface);
+  font-weight: bold;
+}
